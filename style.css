@@ -1,0 +1,171 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #F0F0F0;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box{
+
+    width: 798px;
+    padding: 20px;
+    box-sizing: border-box;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+    
+}
+
+.title{
+    color: #FF6A28;
+    text-transform: uppercase;
+    font-size: 20px;
+   
+
+    font-weight: 700;
+
+}
+
+.sub-title{
+    margin-top: 8px;
+    font-size: 16px;
+    color: #61656D;
+    
+}
+
+.fotoBrownie{
+    margin-top: 14px;
+    width: 100%;
+    
+}
+
+.infoBox{
+    width: 118px;
+    height: 85px;
+    border-radius: 5px;
+    background-color: #F0F0F0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.simbolo{
+    width: 20px;
+}
+
+.info-text{
+    color: #61656D;
+    font-size: 14px;
+    text-transform: uppercase;
+
+    margin-top: 8px;
+}
+
+.info-strong-text{
+    color: #FF6A28;
+    font-size: 14px;
+    text-transform: uppercase;
+
+    margin-top: 6px;
+}
+
+.info-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.owner-Box{
+    width: 238px;
+    height: 85px;
+    background-color: #F0F0F0;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.owner-image{
+    width:60px;
+    height:60px;
+}
+
+.owner-info-wrapper{
+    display:flex;
+    flex-direction:column;
+    margin-left: 11px ;
+}
+
+.owner-name{
+    font-weight: 700;
+    font-size: 14px;
+    color:#FF6A28;
+}
+
+.owner-info{
+    color:#61656D;
+    font-size:14px;
+}
+
+.ingredients-box{
+    margin-top:37px;
+}
+
+.title-wrapper{
+   display: flex;
+   align-items: center;
+   width: 100%;
+   justify-content: center;
+}
+
+.simbolo-title{
+    margin-left: 8px;
+}
+
+.list{
+    list-style-position: inside;
+    margin-top: 12px;
+}
+
+.list-item{
+    margin-bottom:10px;
+    color:#61656D;
+}
+
+.preparation-box{
+    margin-top:16px;
+}
+
+.preparation-item{
+    margin-bottom: 20px;
+}
+
+.add-info-box{
+    margin-top: 16px;
+}
+
+.secundary-title{
+    background-color: #F0F0F0;
+    padding: 8px 0px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #61656D;
+    text-align: center;
+}
+
+.add-info-text{
+    margin-top: 16px;
+}
+
+.add-info-text p{
+    color: #61656D;
+    font-size: 14px;
+}
